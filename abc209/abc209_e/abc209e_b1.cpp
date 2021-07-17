@@ -1,4 +1,8 @@
-// ABC209E 解説AC-1/Web公式
+// ABC209E 解説AC-1/Web公式解説
+/*
+解法: 各文字列を先頭3文字→末尾3文字への有向辺とみて有向グラフを構築し、
+      次数0の各頂点から逆向きにBFSして各頂点についての答えを確定
+*/
 
 #include <bits/stdc++.h>
 using namespace std;
